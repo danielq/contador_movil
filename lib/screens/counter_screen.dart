@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 
-class HomeScreen extends StatelessWidget {
-  const HomeScreen({super.key});
+class CounterScreen extends StatelessWidget {
+  const CounterScreen({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -11,15 +11,14 @@ class HomeScreen extends StatelessWidget {
     int counter = 15;
     return Scaffold(
       appBar: AppBar(
-        title: const Text('HomeScreen'),
+        title: const Text('CounterScreen'),
         backgroundColor: Colors.lightBlueAccent,
         elevation: 1,
       ),
-      body: const Center(
+      body: Center(
         child: Center(
             child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
-          crossAxisAlignment: CrossAxisAlignment.center,
           children: [
             Text(
               'Click contador',
